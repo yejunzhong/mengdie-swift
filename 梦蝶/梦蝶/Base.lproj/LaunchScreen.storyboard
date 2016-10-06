@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="launchview" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B5t-v0-hh7">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="tyI-oX-4vb">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="128" id="1i4-dc-kFb"/>
+                                            <constraint firstAttribute="height" constant="128" id="xcA-UV-Txo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oxU-iX-3wZ">
+                                        <color key="backgroundColor" red="0.20865434408187866" green="0.44318842887878418" blue="0.50296372175216675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KR-yj-cus">
+                                        <frame key="frameInset" minX="145" minY="405" width="85" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="梦蝶">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.95449119806289673" green="0.8069642186164856" blue="0.8207964301109314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="38" name=".PingFangSC-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20865434408187866" green="0.44318842887878418" blue="0.50296372175216675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="oxU-iX-3wZ" firstAttribute="leading" secondItem="B5t-v0-hh7" secondAttribute="leading" constant="67" id="GEQ-na-hss"/>
+                                    <constraint firstItem="oxU-iX-3wZ" firstAttribute="centerY" secondItem="B5t-v0-hh7" secondAttribute="centerY" id="MCP-EO-e67"/>
+                                    <constraint firstItem="oxU-iX-3wZ" firstAttribute="centerX" secondItem="B5t-v0-hh7" secondAttribute="centerX" id="Uzm-gd-fOY"/>
+                                    <constraint firstItem="oxU-iX-3wZ" firstAttribute="top" secondItem="tyI-oX-4vb" secondAttribute="bottom" constant="8" symbolic="YES" id="kNW-W6-r0x"/>
+                                    <constraint firstItem="tyI-oX-4vb" firstAttribute="centerX" secondItem="oxU-iX-3wZ" secondAttribute="centerX" id="w3O-EL-lXI"/>
+                                    <constraint firstItem="oxU-iX-3wZ" firstAttribute="top" secondItem="B5t-v0-hh7" secondAttribute="top" constant="269" id="zpW-Vg-dlD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="B5t-v0-hh7" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="598-na-u5F"/>
+                            <constraint firstItem="B5t-v0-hh7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="amI-Lg-f4l"/>
+                            <constraint firstItem="B5t-v0-hh7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="efF-F9-3GQ"/>
+                            <constraint firstAttribute="trailing" secondItem="B5t-v0-hh7" secondAttribute="trailing" id="hLA-X7-Knr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="256" height="256"/>
+    </resources>
+</document>

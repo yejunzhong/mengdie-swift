@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285AB3BA1D8BC25D006863FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3B91D8BC25D006863FA /* AppDelegate.swift */; };
+		285AB3BC1D8BC25D006863FA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3BB1D8BC25D006863FA /* TabBarController.swift */; };
+		285AB3C11D8BC25D006863FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285AB3C01D8BC25D006863FA /* Assets.xcassets */; };
+		285AB3C41D8BC25D006863FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285AB3C21D8BC25D006863FA /* LaunchScreen.storyboard */; };
+		285AB3CF1D8BC25D006863FA /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3CE1D8BC25D006863FA /* __Tests.swift */; };
+		285AB3DA1D8BC25D006863FA /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3D91D8BC25D006863FA /* __UITests.swift */; };
+		285AB3E81D8BC492006863FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285AB3E71D8BC492006863FA /* Main.storyboard */; };
+		285AB3EF1D8BC607006863FA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3EE1D8BC607006863FA /* CollectionViewController.swift */; };
+		285AB3F11D8BC678006863FA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3F01D8BC678006863FA /* CollectionViewCell.swift */; };
+		285AB3F31D8BC6B2006863FA /* MusiclistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3F21D8BC6B2006863FA /* MusiclistTableViewController.swift */; };
+		285AB3F51D8BC6FA006863FA /* MusiclistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3F41D8BC6FA006863FA /* MusiclistTableViewCell.swift */; };
+		285AB3F71D8BC723006863FA /* musiclist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3F61D8BC723006863FA /* musiclist.swift */; };
+		285AB3F91D8BC771006863FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3F81D8BC771006863FA /* TableViewController.swift */; };
+		285AB3FB1D8BC7AF006863FA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3FA1D8BC7AF006863FA /* AboutViewController.swift */; };
+		285AB3FD1D8BC7DE006863FA /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AB3FC1D8BC7DE006863FA /* MusicPlayerController.swift */; };
+		285AB4091D8BD02F006863FA /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 285AB4001D8BD02F006863FA /* SVIndefiniteAnimatedView.m */; };
+		285AB40A1D8BD02F006863FA /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 285AB4021D8BD02F006863FA /* SVProgressAnimatedView.m */; };
+		285AB40B1D8BD02F006863FA /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 285AB4041D8BD02F006863FA /* SVProgressHUD.bundle */; };
+		285AB40C1D8BD02F006863FA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 285AB4061D8BD02F006863FA /* SVProgressHUD.m */; };
+		285AB40D1D8BD02F006863FA /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 285AB4081D8BD02F006863FA /* SVRadialGradientLayer.m */; };
+		28B4BBE61D8BDFF700114358 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B4BBD91D8BDFC800114358 /* Alamofire.framework */; };
+		28B4BBE71D8BDFF700114358 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28B4BBD91D8BDFC800114358 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28B550A01D8D9A6300CA6636 /* likeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5509F1D8D9A6300CA6636 /* likeTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285AB3CB1D8BC25D006863FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285AB3AE1D8BC25D006863FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285AB3B51D8BC25D006863FA;
+			remoteInfo = "梦蝶";
+		};
+		285AB3D61D8BC25D006863FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285AB3AE1D8BC25D006863FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285AB3B51D8BC25D006863FA;
+			remoteInfo = "梦蝶";
+		};
+		28B4BBD81D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		28B4BBDA1D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		28B4BBDC1D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		28B4BBDE1D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		28B4BBE01D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		28B4BBE21D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		28B4BBE41D8BDFC800114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		28B4BBE81D8BDFF700114358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28B4BBEA1D8BDFF700114358 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28B4BBE71D8BDFF700114358 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		285AB3B61D8BC25D006863FA /* 梦蝶.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "梦蝶.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285AB3B91D8BC25D006863FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		285AB3BB1D8BC25D006863FA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		285AB3C01D8BC25D006863FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285AB3C31D8BC25D006863FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		285AB3C51D8BC25D006863FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285AB3CA1D8BC25D006863FA /* 梦蝶Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "梦蝶Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285AB3CE1D8BC25D006863FA /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
+		285AB3D01D8BC25D006863FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285AB3D51D8BC25D006863FA /* 梦蝶UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "梦蝶UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285AB3D91D8BC25D006863FA /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
+		285AB3DB1D8BC25D006863FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285AB3E71D8BC492006863FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		285AB3EE1D8BC607006863FA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		285AB3F01D8BC678006863FA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		285AB3F21D8BC6B2006863FA /* MusiclistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusiclistTableViewController.swift; sourceTree = "<group>"; };
+		285AB3F41D8BC6FA006863FA /* MusiclistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusiclistTableViewCell.swift; sourceTree = "<group>"; };
+		285AB3F61D8BC723006863FA /* musiclist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = musiclist.swift; sourceTree = "<group>"; };
+		285AB3F81D8BC771006863FA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		285AB3FA1D8BC7AF006863FA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		285AB3FC1D8BC7DE006863FA /* MusicPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		285AB3FF1D8BD02F006863FA /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		285AB4001D8BD02F006863FA /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		285AB4011D8BD02F006863FA /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		285AB4021D8BD02F006863FA /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		285AB4031D8BD02F006863FA /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		285AB4041D8BD02F006863FA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		285AB4051D8BD02F006863FA /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		285AB4061D8BD02F006863FA /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		285AB4071D8BD02F006863FA /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		285AB4081D8BD02F006863FA /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		285AB40E1D8BD051006863FA /* Demo-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridge.h"; sourceTree = "<group>"; };
+		28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		28B5509F1D8D9A6300CA6636 /* likeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = likeTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285AB3B31D8BC25D006863FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B4BBE61D8BDFF700114358 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285AB3C71D8BC25D006863FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285AB3D21D8BC25D006863FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285AB3AD1D8BC25D006863FA = {
+			isa = PBXGroup;
+			children = (
+				28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */,
+				285AB3B81D8BC25D006863FA /* 梦蝶 */,
+				285AB3CD1D8BC25D006863FA /* 梦蝶Tests */,
+				285AB3D81D8BC25D006863FA /* 梦蝶UITests */,
+				285AB3B71D8BC25D006863FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285AB3B71D8BC25D006863FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3B61D8BC25D006863FA /* 梦蝶.app */,
+				285AB3CA1D8BC25D006863FA /* 梦蝶Tests.xctest */,
+				285AB3D51D8BC25D006863FA /* 梦蝶UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285AB3B81D8BC25D006863FA /* 梦蝶 */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3B91D8BC25D006863FA /* AppDelegate.swift */,
+				285AB3BB1D8BC25D006863FA /* TabBarController.swift */,
+				285AB3EA1D8BC552006863FA /* 首页 */,
+				285AB3ED1D8BC57D006863FA /* 喜欢 */,
+				285AB3EB1D8BC563006863FA /* 设置 */,
+				285AB3EC1D8BC56D006863FA /* 音乐播放界面 */,
+				285AB3E91D8BC508006863FA /* support */,
+			);
+			path = "梦蝶";
+			sourceTree = "<group>";
+		};
+		285AB3CD1D8BC25D006863FA /* 梦蝶Tests */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3CE1D8BC25D006863FA /* __Tests.swift */,
+				285AB3D01D8BC25D006863FA /* Info.plist */,
+			);
+			path = "梦蝶Tests";
+			sourceTree = "<group>";
+		};
+		285AB3D81D8BC25D006863FA /* 梦蝶UITests */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3D91D8BC25D006863FA /* __UITests.swift */,
+				285AB3DB1D8BC25D006863FA /* Info.plist */,
+			);
+			path = "梦蝶UITests";
+			sourceTree = "<group>";
+		};
+		285AB3E91D8BC508006863FA /* support */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3E71D8BC492006863FA /* Main.storyboard */,
+				285AB3C21D8BC25D006863FA /* LaunchScreen.storyboard */,
+				285AB3C51D8BC25D006863FA /* Info.plist */,
+				285AB3FE1D8BD02F006863FA /* SVProgressHUD */,
+				285AB3C01D8BC25D006863FA /* Assets.xcassets */,
+				285AB40E1D8BD051006863FA /* Demo-Bridge.h */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		285AB3EA1D8BC552006863FA /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3EE1D8BC607006863FA /* CollectionViewController.swift */,
+				285AB3F01D8BC678006863FA /* CollectionViewCell.swift */,
+				285AB3F21D8BC6B2006863FA /* MusiclistTableViewController.swift */,
+				285AB3F41D8BC6FA006863FA /* MusiclistTableViewCell.swift */,
+				285AB3F61D8BC723006863FA /* musiclist.swift */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		285AB3EB1D8BC563006863FA /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3F81D8BC771006863FA /* TableViewController.swift */,
+				285AB3FA1D8BC7AF006863FA /* AboutViewController.swift */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		285AB3EC1D8BC56D006863FA /* 音乐播放界面 */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3FC1D8BC7DE006863FA /* MusicPlayerController.swift */,
+			);
+			name = "音乐播放界面";
+			sourceTree = "<group>";
+		};
+		285AB3ED1D8BC57D006863FA /* 喜欢 */ = {
+			isa = PBXGroup;
+			children = (
+				28B5509F1D8D9A6300CA6636 /* likeTableViewController.swift */,
+			);
+			name = "喜欢";
+			sourceTree = "<group>";
+		};
+		285AB3FE1D8BD02F006863FA /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				285AB3FF1D8BD02F006863FA /* SVIndefiniteAnimatedView.h */,
+				285AB4001D8BD02F006863FA /* SVIndefiniteAnimatedView.m */,
+				285AB4011D8BD02F006863FA /* SVProgressAnimatedView.h */,
+				285AB4021D8BD02F006863FA /* SVProgressAnimatedView.m */,
+				285AB4031D8BD02F006863FA /* SVProgressHUD-Prefix.pch */,
+				285AB4041D8BD02F006863FA /* SVProgressHUD.bundle */,
+				285AB4051D8BD02F006863FA /* SVProgressHUD.h */,
+				285AB4061D8BD02F006863FA /* SVProgressHUD.m */,
+				285AB4071D8BD02F006863FA /* SVRadialGradientLayer.h */,
+				285AB4081D8BD02F006863FA /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		28B4BBCE1D8BDFC800114358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B4BBD91D8BDFC800114358 /* Alamofire.framework */,
+				28B4BBDB1D8BDFC800114358 /* Alamofire iOS Tests.xctest */,
+				28B4BBDD1D8BDFC800114358 /* Alamofire.framework */,
+				28B4BBDF1D8BDFC800114358 /* Alamofire OSX Tests.xctest */,
+				28B4BBE11D8BDFC800114358 /* Alamofire.framework */,
+				28B4BBE31D8BDFC800114358 /* Alamofire tvOS Tests.xctest */,
+				28B4BBE51D8BDFC800114358 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285AB3B51D8BC25D006863FA /* 梦蝶 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285AB3DE1D8BC25D006863FA /* Build configuration list for PBXNativeTarget "梦蝶" */;
+			buildPhases = (
+				285AB3B21D8BC25D006863FA /* Sources */,
+				285AB3B31D8BC25D006863FA /* Frameworks */,
+				285AB3B41D8BC25D006863FA /* Resources */,
+				28B4BBEA1D8BDFF700114358 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B4BBE91D8BDFF700114358 /* PBXTargetDependency */,
+			);
+			name = "梦蝶";
+			productName = "梦蝶";
+			productReference = 285AB3B61D8BC25D006863FA /* 梦蝶.app */;
+			productType = "com.apple.product-type.application";
+		};
+		285AB3C91D8BC25D006863FA /* 梦蝶Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285AB3E11D8BC25D006863FA /* Build configuration list for PBXNativeTarget "梦蝶Tests" */;
+			buildPhases = (
+				285AB3C61D8BC25D006863FA /* Sources */,
+				285AB3C71D8BC25D006863FA /* Frameworks */,
+				285AB3C81D8BC25D006863FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285AB3CC1D8BC25D006863FA /* PBXTargetDependency */,
+			);
+			name = "梦蝶Tests";
+			productName = "梦蝶Tests";
+			productReference = 285AB3CA1D8BC25D006863FA /* 梦蝶Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		285AB3D41D8BC25D006863FA /* 梦蝶UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285AB3E41D8BC25D006863FA /* Build configuration list for PBXNativeTarget "梦蝶UITests" */;
+			buildPhases = (
+				285AB3D11D8BC25D006863FA /* Sources */,
+				285AB3D21D8BC25D006863FA /* Frameworks */,
+				285AB3D31D8BC25D006863FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285AB3D71D8BC25D006863FA /* PBXTargetDependency */,
+			);
+			name = "梦蝶UITests";
+			productName = "梦蝶UITests";
+			productReference = 285AB3D51D8BC25D006863FA /* 梦蝶UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285AB3AE1D8BC25D006863FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "叶俊中";
+				TargetAttributes = {
+					285AB3B51D8BC25D006863FA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4YG2TQZNT;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					285AB3C91D8BC25D006863FA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4YG2TQZNT;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 285AB3B51D8BC25D006863FA;
+					};
+					285AB3D41D8BC25D006863FA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4YG2TQZNT;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 285AB3B51D8BC25D006863FA;
+					};
+				};
+			};
+			buildConfigurationList = 285AB3B11D8BC25D006863FA /* Build configuration list for PBXProject "梦蝶" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 285AB3AD1D8BC25D006863FA;
+			productRefGroup = 285AB3B71D8BC25D006863FA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 28B4BBCE1D8BDFC800114358 /* Products */;
+					ProjectRef = 28B4BBCD1D8BDFC800114358 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				285AB3B51D8BC25D006863FA /* 梦蝶 */,
+				285AB3C91D8BC25D006863FA /* 梦蝶Tests */,
+				285AB3D41D8BC25D006863FA /* 梦蝶UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		28B4BBD91D8BDFC800114358 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 28B4BBD81D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28B4BBDB1D8BDFC800114358 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 28B4BBDA1D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28B4BBDD1D8BDFC800114358 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 28B4BBDC1D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28B4BBDF1D8BDFC800114358 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 28B4BBDE1D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28B4BBE11D8BDFC800114358 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 28B4BBE01D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28B4BBE31D8BDFC800114358 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 28B4BBE21D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28B4BBE51D8BDFC800114358 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 28B4BBE41D8BDFC800114358 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285AB3B41D8BC25D006863FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285AB3C41D8BC25D006863FA /* LaunchScreen.storyboard in Resources */,
+				285AB3C11D8BC25D006863FA /* Assets.xcassets in Resources */,
+				285AB3E81D8BC492006863FA /* Main.storyboard in Resources */,
+				285AB40B1D8BD02F006863FA /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285AB3C81D8BC25D006863FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285AB3D31D8BC25D006863FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285AB3B21D8BC25D006863FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285AB3FD1D8BC7DE006863FA /* MusicPlayerController.swift in Sources */,
+				285AB3EF1D8BC607006863FA /* CollectionViewController.swift in Sources */,
+				28B550A01D8D9A6300CA6636 /* likeTableViewController.swift in Sources */,
+				285AB3F31D8BC6B2006863FA /* MusiclistTableViewController.swift in Sources */,
+				285AB3BC1D8BC25D006863FA /* TabBarController.swift in Sources */,
+				285AB3FB1D8BC7AF006863FA /* AboutViewController.swift in Sources */,
+				285AB3F91D8BC771006863FA /* TableViewController.swift in Sources */,
+				285AB3F71D8BC723006863FA /* musiclist.swift in Sources */,
+				285AB40D1D8BD02F006863FA /* SVRadialGradientLayer.m in Sources */,
+				285AB3F11D8BC678006863FA /* CollectionViewCell.swift in Sources */,
+				285AB3BA1D8BC25D006863FA /* AppDelegate.swift in Sources */,
+				285AB40C1D8BD02F006863FA /* SVProgressHUD.m in Sources */,
+				285AB4091D8BD02F006863FA /* SVIndefiniteAnimatedView.m in Sources */,
+				285AB3F51D8BC6FA006863FA /* MusiclistTableViewCell.swift in Sources */,
+				285AB40A1D8BD02F006863FA /* SVProgressAnimatedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285AB3C61D8BC25D006863FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285AB3CF1D8BC25D006863FA /* __Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285AB3D11D8BC25D006863FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285AB3DA1D8BC25D006863FA /* __UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285AB3CC1D8BC25D006863FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285AB3B51D8BC25D006863FA /* 梦蝶 */;
+			targetProxy = 285AB3CB1D8BC25D006863FA /* PBXContainerItemProxy */;
+		};
+		285AB3D71D8BC25D006863FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285AB3B51D8BC25D006863FA /* 梦蝶 */;
+			targetProxy = 285AB3D61D8BC25D006863FA /* PBXContainerItemProxy */;
+		};
+		28B4BBE91D8BDFF700114358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 28B4BBE81D8BDFF700114358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		285AB3C21D8BC25D006863FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285AB3C31D8BC25D006863FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		285AB3DD1D8BC25D006863FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285AB3E01D8BC25D006863FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "梦蝶/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "梦蝶/Demo-Bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		285AB3E31D8BC25D006863FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "梦蝶Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/梦蝶.app/梦蝶";
+			};
+			name = Release;
+		};
+		285AB3E61D8BC25D006863FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J4YG2TQZNT;
+				INFOPLIST_FILE = "梦蝶UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "梦蝶";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285AB3B11D8BC25D006863FA /* Build configuration list for PBXProject "梦蝶" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285AB3DD1D8BC25D006863FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285AB3DE1D8BC25D006863FA /* Build configuration list for PBXNativeTarget "梦蝶" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285AB3E01D8BC25D006863FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285AB3E11D8BC25D006863FA /* Build configuration list for PBXNativeTarget "梦蝶Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285AB3E31D8BC25D006863FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285AB3E41D8BC25D006863FA /* Build configuration list for PBXNativeTarget "梦蝶UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285AB3E61D8BC25D006863FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285AB3AE1D8BC25D006863FA /* Project object */;
+}
